@@ -10,7 +10,7 @@ sudo apt update &&
 
 ## Instalando pacotes e programas do repositório deb do Ubuntu ##
 
-sudo apt install python3 python3-pip wine nautilus-dropbox git build-essential libssl-dev flatpak gnome-software-plugin-flatpak -y &&
+sudo apt install python3 python3-pip wine nautilus-dropbox git build-essential ubuntu-restricted-extras libssl-dev flatpak gnome-software-plugin-flatpak -y &&
 
 ## Instalando pacotes Snap ##
 
@@ -34,7 +34,7 @@ sudo flatpak install flathub com.sublimetext.three -y &&
 
 ## Softwares que precisam de download externo ##
 
-cd ~/Downloads/ && wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i *.deb && wget -c https://uploads.treeunfe.me/downloads/instalar-freenfe.exe &&
+cd ~/Downloads/ && wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i *.deb &&
 
 ##Softwares alternativos Windows##
 
